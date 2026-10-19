@@ -89,7 +89,7 @@ const handleClick = () => {
         @mouseleave="handleMouseLeave"
       >
         <img
-          src="/beep.png"
+          src="/boop.png"
           alt="anurag"
           loading="lazy"
           class="rounded-sm object-cover aspect-square"
