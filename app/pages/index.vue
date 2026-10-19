@@ -12,17 +12,7 @@ const isSafeHtml = (value: string): boolean => value.includes('data-safe="highli
       <Routes />
       <p class="mb-6">welcome to my <span class="highlight">corner</span> of the internet!</p>
 
-      <p class="leading-6">
-        ohayo! i'm <Hover /> [he/him], a design engineer
-        <a
-          href="https://beanstalk.fi"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="highlight underline decoration-dashed underline-offset-4"
-        >
-          @beanstalk
-        </a>
-      </p>
+      <p class="leading-6">ohayo! i'm <Hover /> [he/him]</p>
 
       <p class="mt-3 leading-6">
         i'm an undergraduate at
