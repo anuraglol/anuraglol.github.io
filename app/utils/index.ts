@@ -26,7 +26,7 @@ export const ACHIEVEMENTS = [
   )}, won the Solana Sandstorm Hackathon.`,
   `Authored articles with ${highlight(
     "60,000+ views",
-  )} on <a href="https://anuragkr.hashnode.dev/" class="external-link" target="_blank" rel="noopener noreferrer">Hashnode</a> and <a href="https://dev.to/kranurag" class="external-link" target="_blank" rel="noopener noreferrer">Dev.to</a>, covering web development and Web3 topics.`,
+  )} on Hashnode and Dev.to, covering web development and Web3 topics.`,
 ];
 
 export const EXPERIENCES = [
@@ -139,6 +139,16 @@ export const USES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "nesu",
+    url: "https://github.com/anuraglol/nesu",
+    description: "a nintendo emulator written in rust.",
+  },
+  {
+    title: "hoshi",
+    description: "a small fetch tool written in rust for linux, supposed to be really fast.",
+    url: "https://github.com/anuraglol/hoshi",
+  },
   {
     title: "kotiri",
     description:

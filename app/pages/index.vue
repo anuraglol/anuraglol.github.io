@@ -85,7 +85,7 @@ const isSafeHtml = (value: string): boolean => value.includes('data-safe="highli
         <p class="text-lg sm:text-xl font-medium">achievements</p>
         <div class="flex flex-col gap-2">
           <div v-for="(achievement, index) in ACHIEVEMENTS" :key="index">
-            <div class="flex gap-3 items-baseline text-base sm:text-[16px]">
+            <div class="flex gap-3 items-baseline">
               <span class="text-orange-600">-</span>
               <p v-if="isSafeHtml(achievement)" v-html="achievement" />
             </div>
@@ -119,7 +119,7 @@ const isSafeHtml = (value: string): boolean => value.includes('data-safe="highli
           <div
             v-for="(skill, index) in SKILLS"
             :key="index"
-            class="flex gap-2 text-base sm:text-[16px] items-baseline"
+            class="flex gap-2 text-base sm:text-[18px] items-baseline"
           >
             <span class="text-orange-600">-</span>
             <p v-if="isSafeHtml(skill)" v-html="skill" />
