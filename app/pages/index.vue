@@ -111,22 +111,6 @@ const isSafeHtml = (value: string): boolean => value.includes('data-safe="highli
         </div>
       </section>
 
-      <Divider />
-
-      <section class="flex flex-col gap-2">
-        <p class="text-lg sm:text-xl font-medium">technical skills</p>
-        <div class="flex flex-col">
-          <div
-            v-for="(skill, index) in SKILLS"
-            :key="index"
-            class="flex gap-2 text-base sm:text-[18px] items-baseline"
-          >
-            <span class="text-orange-600">-</span>
-            <p v-if="isSafeHtml(skill)" v-html="skill" />
-          </div>
-        </div>
-      </section>
-
       <p class="text-center italic mt-6 mb-8">and may the odds be ever in your favor :3</p>
     </div>
   </main>
