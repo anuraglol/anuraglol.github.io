@@ -36,7 +36,7 @@ export const EXPERIENCES = [
   // },
   {
     title: "Design Engineer at Cleopetra",
-    link: "https://cleopetra.fun",
+    link: "https://x.com/cleopetrafun",
     description: `I've previously worked on ${highlight("Cleopetra")}, where I developed and enhanced the trading interface for token pairs, helping LPs earn over ${highlight("$2M+")} in fees with ${highlight("$30M+")} in overall deposits. I focused on usability and performance, and integrated payment APIs while maintaining a scalable, complex frontend architecture.`,
   },
   {
